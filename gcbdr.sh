@@ -8,3 +8,6 @@ Delete in progress for backup plan association [projects/d-ulti-lifetech-hrsd-ce
 
 Update label on GCP forwarding rule
 gcloud compute forwarding-rules update us-cfn-api-gtw-elb1-forwarding-rule --global --update-labels substream_id=c2a70bad-9106-7652-7f44-e1d6c8f1480e,env_type=cfn
+
+Update label on IP Address
+gcloud beta compute addresses update us-cfn-api-gtw-elb1-ip     --global   --update-labels substream_id=c2a70bad-9106-7652-7f44-e1d6c8f1480e,env_type=cfn
